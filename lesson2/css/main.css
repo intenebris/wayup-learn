@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    font-family: 'Times New Roman', serif;
+    font-size: 31px;
+}
+
+p {
+    line-height: 1.2em;
+    letter-spacing: 0.01em;
+}
+
+h1 {
+    font-size: 2.05em;
+}
+
+h2 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.header__logo {
+    margin-bottom: 45px;
+}
+
+.header__title  {
+    color: #ff0101;
+    margin-bottom: 45px;
+}
+
+.white {
+    display: block;
+    padding: 0;
+    width: 200px;
+    height: 150px;
+    color: #fff;
+    background-color: #0000fe;
+    margin-bottom: 205px;
+}
+
+.header__text-span {
+    color:  #ff0101;
+}
+
+.green {
+    background-color: #008001;
+    color: #fff;
+}
+.next__title {
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.next__text {
+    margin-bottom: 40px;
+}
+
+.skills__title {
+    padding: 90px;
+    margin-bottom: 40px;
+}
+
+.skills__text-form {
+    margin: 0 0 40px 190px;
+}
+
+.form {
+    margin-bottom: 40px;
+}
+
+.hide {
+    font-size: 0;
+    border: none;
+}
+
+.form__container {
+    border: none;
+}
+
+.form__input {
+    font-size: 32px;
+    width: 320px;
+}
+
+.form__button {
+    font-size: 31px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.skills__text-list,
+.skills__list {
+    margin-bottom: 60px;
+}
+
+.list {
+    margin-left: 95px;
+}
+
+.list__item {
+    font-size: 2em;
+    border: 2px solid #000;
+}
+
+.footer__title {
+    padding: 10px;
+    margin-bottom: 50px;
+}

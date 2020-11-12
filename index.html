@@ -3,52 +3,73 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Сайт о мечте</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap">
 	<link rel="stylesheet" href="css/main.css">
-	<title>Изучение HTML5</title>
 </head>
 
 <body>
-
 	<header class="header">
-		<img class="header__logo" src="img/logo.jpg" alt="logo">
-		<h1 class="header__title">Вступление H1</h1>
-		<p class="header__text white">Это текст моего первого домашнего задания.</p>
-		<p class="header__text">Не верится, но мне уже удается писать свой <span class="header__text-span">первый код на HTML.</span></p>
+		<div class="container">
+			<img class="header__logo" src="img/logo.png" alt="Logo">
+			<div class="header__wrapper">
+				<div class="header__offer">
+					<h1 class="header__title">С помощью верстки <br>я создам ту жизнь, о которой <span
+							class="header__title-span">мечтаю!</span></h1>
+					<p class="header__text">Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в
+						это. Я знаю это на 100%. Меня не остановить!</p>
+					<a href="#feature" class="header__btn button">Двигаться к мечте!</a>
+				</div>
+				<img class="header__picture" src="img/header.png" alt="На чемоданах">
+			</div>
+		</div>
 	</header>
-
 	<main class="main">
-		<section class="next">
-			<h2 class="next__title green">Что дальше? H2</h2>
-			<p class="next__text">Дальше, я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь
-				новых вершин! <a class="next__link" href="https://google.com" target="_blank">Прочитать больше в Google</a></p>
+		<section class="feature" id="feature">
+			<div class="container">
+				<h2 class="feature__title main-title">Что меня ждет впереди</h2>
+				<div class="feature__wrapper">
+					<div class="feature__item">
+						<img class="feature__item-icon" src="img/icon-1.jpg" alt="Часы">
+						<h3 class="feature__item-title">Свободное время</h3>
+						<p class="feature__item-text">Мне нужно свободное время на семью и самое настоящее</p>
+					</div>
+					<div class="feature__item">
+						<img class="feature__item-icon" src="img/icon-2.jpg" alt="Пальма">
+						<h3 class="feature__item-title">Яркие путешествия</h3>
+						<p class="feature__item-text">Работать откуда угодно - что может быть лучше?</p>
+					</div>
+					<div class="feature__item">
+						<img class="feature__item-icon" src="img/icon-3.jpg" alt="Ракета">
+						<h3 class="feature__item-title">Создание ценности</h3>
+						<p class="feature__item-text">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+					</div>
+				</div>
+			</div>
 		</section>
-		<section class="skills">
-			<h2 class="skills__title green">Что я буду уметь? H2</h2>
-			<p class="skills__text-form">Я смогу создавать вот такие замечательные формы:</p>
-			<form class="skills__form form" action="#">
-				<fieldset class="form__container">
-					<legend class="hide">Форма обратной связи</legend>
-					<input class="form__input" name="name" type="text" placeholder="Имя">
-					<input class="form__input" name="email" type="email" placeholder="E-mail">
-					<input class="form__input" name="phone" type="tel" placeholder="Телефон">
-					<button class="form__button" type="submit">Отправить форму</button>
-				</fieldset>
-			</form>
-			<p class="skills__text-list">А также, я научусть создавать списки:</p>
-			<ul class="skills__list list">
-				<li class="list__item">С одним пунктом</li>
-				<li class="list__item">С несколькими пунктами</li>
-				<li class="list__item">И даже с тремя отдельными пунктами</li>
-			</ul>
+		<section class="contacts">
+			<div class="container">
+				<h2 class="contacts__title main-title">Форма заказа билета в будущее</h2>
+				<form class="contacts__form" action="#">
+					<fieldset class="contacts__form-wrapper">
+						<legend class="contacts__form-title">Форма заказа билета в будущее</legend>
+						<input  class="contacts__form-input" name="name" type="text" placeholder="Имя">
+						<input  class="contacts__form-input" name="email" type="email" placeholder="E-mail">
+						<input  class="contacts__form-input" name="phone" type="tel" placeholder="Телефон">
+						<input  class="contacts__form-input" name="place" type="text" placeholder="Куда я полечу в ближайшее время?">
+						<button class="contacts__form-btn button" type="submit">Двигаться к мечте!</button>
+					</fieldset>
+				</form>
+			</div>
 		</section>
 	</main>
-
 	<footer class="footer">
-		<h2 class="footer__title green">Отличное начало! H2</h2>
-		<a class="footer__link" href="https://wayup.in/cabinet/course10/unit1/lesson1" target="_blank">Перейти на страницу первого занятия курса</a>
+		<div class="container">
+			<p class="footer__copy">© Все мои мечты защищены моим трудолюбием</p>
+		</div>
 	</footer>
-
 </body>
 
 </html>
