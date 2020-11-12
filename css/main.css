@@ -1,176 +1,117 @@
-html {
-    scroll-behavior: smooth;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 400;
-	font-size: 15px;
-	color: #201b2d;
-	padding: 0;
-	margin: 0;
+    padding: 15px;
+    font-family: 'Times New Roman', serif;
+    font-size: 31px;
 }
 
-div, p, input, button, form, span, a, ul, li {
-	box-sizing: border-box;
+p {
+    line-height: 1.2em;
+    letter-spacing: 0.01em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0;
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 700;
+h1 {
+    font-size: 2.05em;
 }
 
-.container {
-	max-width: 1200px;
-	padding: 0 10px;
-	margin: 0 auto;
-}
-
-.button {
-	padding: 20px 25px;
-	color: #2e2a1b;
-	background-color: #ffd429;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 900;
-	font-size: 15px;
-	line-height: 25px;
-	text-decoration: none;
-	border: none;
-	cursor: pointer;
-	transition: all 0.5s;
-}
-.button:hover {
-	background-color: #f5c242;
-}
-.button:active {
-	background-color: #e4b601;
-}
-
-.main-title {
-	font-size: 30px;
-	line-height: 25px;
+h2 {
+    font-size: 1.4em;
+    line-height: 1.4em;
 }
 
 .header {
-	padding-top: 65px;
-	height: 100vh;
-	background: rgb(75,186,251);
-	background: -moz-linear-gradient(90deg, rgba(75,186,251,1) 0%, rgba(58,149,221,1) 100%);
-	background: -webkit-linear-gradient(90deg, rgba(75,186,251,1) 0%, rgba(58,149,221,1) 100%);
-	background: linear-gradient(90deg, rgba(75,186,251,1) 0%, rgba(58,149,221,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4bbafb",endColorstr="#3a95dd",GradientType=1);
+    margin-bottom: 40px;
 }
 
-.header__wrapper {
-	display: flex;
-	justify-content: space-between;
+.header__logo {
+    margin-bottom: 45px;
 }
 
-.header__offer {
-	margin: auto;
-	max-width: 580px;
-	color: #fff;
+.header__title  {
+    color: #ff0101;
+    margin-bottom: 45px;
 }
 
-.header__title {
-	font-size: 37px;
-	line-height: 49px;
+.white {
+    display: block;
+    padding: 0;
+    width: 200px;
+    height: 150px;
+    color: #fff;
+    background-color: #0000fe;
+    margin-bottom: 205px;
 }
 
-.header__title-span {
-	display: block;
-	font-size: 59px;
-	line-height: 73px;
+.header__text-span {
+    color:  #ff0101;
 }
 
-.header__text {
-	max-width: 405px;
-	font-size: 16px;
-	line-height: 27px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	margin-bottom: 55px;
+.green {
+    background-color: #008001;
+    color: #fff;
 }
-.main {
-	text-align: center;;
+.next__title {
+    padding: 10px;
+    margin-bottom: 40px;
 }
 
-.feature {
-	padding: 105px 0 115px;
+.next__text {
+    margin-bottom: 40px;
 }
 
-.feature__title {
-	margin-bottom: 70px;
+.skills__title {
+    padding: 90px;
+    margin-bottom: 40px;
 }
 
-.feature__wrapper {
-	display: flex;
-	justify-content: space-between;
+.skills__text-form {
+    margin: 0 0 40px 190px;
 }
 
-.feature__item {
-	width: 315px;
-}
-.feature__item-icon {
-	width: auto;
-	height: 60px;
-	object-fit: cover;
-	margin-bottom: 20px;
+.form {
+    margin-bottom: 40px;
 }
 
-.feature__item-title {
-	font-size: 19px;
-	line-height: 25px;
+.hide {
+    font-size: 0;
+    border: none;
 }
 
-.feature__item-text {
-	font-size: 15px;
-	line-height: 22px;
+.form__container {
+    border: none;
 }
 
-.contacts {
-	padding: 100px 0;
-	background-color: #ecf3f8;
-}
-.contacts__title {
-	margin-bottom: 60px;
-}
-.contacts__form {
-	max-width: 345px;
-	margin: 0 auto;
+.form__input {
+    font-size: 32px;
+    width: 320px;
 }
 
-.contacts__form-wrapper {
-	border: none;
-}
-.contacts__form-title {
-	font-size: 0;
-}
-.contacts__form-input {
-	width: 100%;
-	margin-bottom: 15px;
-	opacity: 0.55;
-	padding: 15px 20px;
-}
-.contacts__form-input [placeholder] {
-	color: red;
+.form__button {
+    font-size: 31px;
+    padding: 3px 10px;
+    cursor: pointer;
 }
 
-.contacts__form-btn {
-	width: 100%;
+.skills__text-list,
+.skills__list {
+    margin-bottom: 60px;
 }
 
-.footer {
-	padding: 60px 0;
-	background-color: #164d7a;
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	line-height: 25px;
-	text-align: center;
+.list {
+    margin-left: 95px;
 }
-.footer__copy {
-	padding: 0;
-	margin: 0;
+
+.list__item {
+    font-size: 2em;
+    border: 2px solid #000;
+}
+
+.footer__title {
+    padding: 10px;
+    margin-bottom: 50px;
 }
