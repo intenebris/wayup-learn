@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Сайт о мечте</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet"
@@ -32,19 +33,32 @@
 				<h2 class="feature__title main-title">Что меня ждет впереди</h2>
 				<div class="feature__wrapper">
 					<div class="feature__item">
-						<img class="feature__item-icon" src="img/icon-1.jpg" alt="Часы">
-						<h3 class="feature__item-title">Свободное время</h3>
-						<p class="feature__item-text">Мне нужно свободное время на семью и самое настоящее</p>
+						<div class="feature__item-frame">
+							<img class="feature__item-icon" src="img/icon-1.jpg" alt="Часы">
+						</div>
+						<div class="feature__item-inner">
+							<h3 class="feature__item-title">Свободное время</h3>
+							<p class="feature__item-text">Мне нужно свободное время на семью и самое настоящее</p>
+						</div>
 					</div>
 					<div class="feature__item">
-						<img class="feature__item-icon" src="img/icon-2.jpg" alt="Пальма">
-						<h3 class="feature__item-title">Яркие путешествия</h3>
-						<p class="feature__item-text">Работать откуда угодно - что может быть лучше?</p>
+						<div class="feature__item-frame">
+							<img class="feature__item-icon" src="img/icon-2.jpg" alt="Пальма">
+						</div>
+						<div class="feature__item-inner">
+							<h3 class="feature__item-title">Яркие путешествия</h3>
+							<p class="feature__item-text">Работать откуда угодно - что может быть лучше?</p>
+						</div>
 					</div>
 					<div class="feature__item">
-						<img class="feature__item-icon" src="img/icon-3.jpg" alt="Ракета">
-						<h3 class="feature__item-title">Создание ценности</h3>
-						<p class="feature__item-text">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+						<div class="feature__item-frame">
+							<img class="feature__item-icon" src="img/icon-3.jpg" alt="Ракета">
+						</div>
+						<div class="feature__item-inner">
+							<h3 class="feature__item-title">Создание ценности</h3>
+							<p class="feature__item-text">Нет ничего сильнее, чем жить не просто так, создавая ценность
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -55,10 +69,11 @@
 				<form class="contacts__form" action="#">
 					<fieldset class="contacts__form-wrapper">
 						<legend class="contacts__form-title">Форма заказа билета в будущее</legend>
-						<input  class="contacts__form-input" name="name" type="text" placeholder="Имя">
-						<input  class="contacts__form-input" name="email" type="email" placeholder="E-mail">
-						<input  class="contacts__form-input" name="phone" type="tel" placeholder="Телефон">
-						<input  class="contacts__form-input" name="place" type="text" placeholder="Куда я полечу в ближайшее время?">
+						<input class="contacts__form-input" name="name" type="text" placeholder="Имя">
+						<input class="contacts__form-input" name="email" type="email" placeholder="E-mail">
+						<input class="contacts__form-input" name="phone" type="tel" placeholder="Телефон">
+						<input class="contacts__form-input" name="place" type="text"
+							placeholder="Куда я полечу в ближайшее время?">
 						<button class="contacts__form-btn button" type="submit">Двигаться к мечте!</button>
 					</fieldset>
 				</form>
