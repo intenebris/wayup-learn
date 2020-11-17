@@ -126,6 +126,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .feature__item-frame {
+	display: flex;
+	justify-content: center;
 	width: 60px;
 	height: 60px;
 	margin-bottom: 20px;
@@ -137,7 +139,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .feature__item-icon {
-	display: block;
 	width: auto;
 	height: 60px;
 	object-fit: cover;
