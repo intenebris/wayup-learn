@@ -8,31 +8,31 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap">
+		<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 	<header class="header">
 		<div class="container">
-			<img class="header__logo" src="img/logo.png" alt="Logo">
+			<img class="header__logo animate__animated animate__fadeInDown" src="img/logo.png" alt="Logo">
 			<div class="header__wrapper">
 				<div class="header__offer">
-					<h1 class="header__title">С помощью верстки <br>я создам ту жизнь, о которой <span
-							class="header__title-span">мечтаю!</span></h1>
-					<p class="header__text">Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в
+					<h1 class="header__title animate__animated animate__fadeInLeft">С помощью верстки <br>я создам ту жизнь, о которой <span class="header__title-span">мечтаю!</span></h1>
+					<p class="header__text animate__animated animate__bounceInLeft delay-300">Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в
 						это. Я знаю это на 100%. Меня не остановить!</p>
-					<a href="#feature" class="header__btn button">Двигаться к мечте!</a>
+					<a href="#feature" class="header__btn button animate__animated animate__fadeInUpBig delay-700">Двигаться к мечте!</a>
 				</div>
-				<img class="header__picture" src="img/header.png" alt="На чемоданах">
+				<img class="header__picture animate__animated animate__rollIn" src="img/header.png" alt="На чемоданах">
 			</div>
 		</div>
 	</header>
 	<main class="main">
 		<section class="feature" id="feature">
 			<div class="container">
-				<h2 class="feature__title main-title">Что меня ждет впереди</h2>
+				<h2 class="feature__title main-title animate__animated">Что меня ждет впереди</h2>
 				<div class="feature__wrapper">
-					<div class="feature__item">
+					<div class="feature__item animate__animated">
 						<div class="feature__item-frame">
 							<img class="feature__item-icon" src="img/icon-1.jpg" alt="Часы">
 						</div>
@@ -41,7 +41,7 @@
 							<p class="feature__item-text">Мне нужно свободное время на семью и самое настоящее</p>
 						</div>
 					</div>
-					<div class="feature__item">
+					<div class="feature__item animate__animated delay-300">
 						<div class="feature__item-frame">
 							<img class="feature__item-icon" src="img/icon-2.jpg" alt="Пальма">
 						</div>
@@ -50,7 +50,7 @@
 							<p class="feature__item-text">Работать откуда угодно - что может быть лучше?</p>
 						</div>
 					</div>
-					<div class="feature__item">
+					<div class="feature__item animate__animated delay-700">
 						<div class="feature__item-frame">
 							<img class="feature__item-icon" src="img/icon-3.jpg" alt="Ракета">
 						</div>
@@ -65,16 +65,16 @@
 		</section>
 		<section class="contacts">
 			<div class="container">
-				<h2 class="contacts__title main-title">Форма заказа билета в будущее</h2>
+				<h2 class="contacts__title main-title animate__animated">Форма заказа билета в будущее</h2>
 				<form class="contacts__form" action="#">
 					<fieldset class="contacts__form-wrapper">
 						<legend class="contacts__form-title">Форма заказа билета в будущее</legend>
-						<input class="contacts__form-input" name="name" type="text" placeholder="Имя">
-						<input class="contacts__form-input" name="email" type="email" placeholder="E-mail">
-						<input class="contacts__form-input" name="phone" type="tel" placeholder="Телефон">
-						<input class="contacts__form-input" name="place" type="text"
+						<input class="contacts__form-input animate__animated" id="name" name="name" type="text" placeholder="Имя">
+						<input class="contacts__form-input animate__animated delay-300" id="email" name="email" type="email" placeholder="E-mail">
+						<input class="contacts__form-input animate__animated delay-1100" id="phone" name="phone" type="tel" placeholder="Телефон">
+						<input class="contacts__form-input animate__animated delay-700" id="place" name="place" type="text"
 							placeholder="Куда я полечу в ближайшее время?">
-						<button class="contacts__form-btn button" type="submit">Двигаться к мечте!</button>
+						<button class="contacts__form-btn button animate__animated delay-1500" type="submit">Двигаться к мечте!</button>
 					</fieldset>
 				</form>
 			</div>
@@ -85,6 +85,8 @@
 			<p class="footer__copy">© Все мои мечты защищены моим трудолюбием</p>
 		</div>
 	</footer>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
